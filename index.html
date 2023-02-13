@@ -17,17 +17,12 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
-    />
   </head>
   <body>
     <header class="header">
       <nav>
         <a href="#"><img class="navimg" src="./images/logo.png" alt="" /></a>
         <div class="nav-links" id="navLinks">
-          <i class="fa fa-times" onclick="hidemenu()"></i>
           <ul>
             <li><a href="">HOME</a></li>
             <li><a href="">ABOUT</a></li>
@@ -36,14 +31,13 @@
             <li><a href="">CONTACT</a></li>
           </ul>
         </div>
-        <i class="fa fa-bars" onclick="showmenu()"></i>
       </nav>
 
       <div class="back-text">
         <h1>The only university.</h1>
         <p>
-          Visit us today and join the world's brilliant mind or Enroll for our
-          courses online
+          Visit us today and join the world's brilliant mind or <br />
+          Enroll for our courses online
         </p>
         <a href="" class="a-btn">Check us out</a>
       </div>
@@ -106,7 +100,7 @@
       <!-- facilities -->
       <section class="facilities">
         <h1>Our Facilities</h1>
-        <p>
+        <p class="first">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
           blanditiis provident nulla incidunt.
         </p>
@@ -208,15 +202,5 @@
     <div class="copy">
       <h4>Copyright 2023 &copy; CODEST</h4>
     </div>
-    <!-- MY FIRST JAVASCRIPT (TOGGLE) -->
-    <script>
-      var navLinks = document.getElementById("navLinks");
-      function showmenu() {
-        navLinks.style.right = "0";
-      }
-      function hidemenu() {
-        navLinks.style.right = "-200px";
-      }
-    </script>
   </body>
 </html>
