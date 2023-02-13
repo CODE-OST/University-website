@@ -333,7 +333,7 @@ footer h4 {
 /* about page */
 
 .sub-header {
-  height: 50vh;
+  height: 80vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(./images/graduation.jpeg);
@@ -346,11 +346,10 @@ footer h4 {
 }
 
 .About-text {
-  margin-top: 20px;
+  margin-top: 10px;
   text-align: center;
 }
 .about-us {
-  width: 80%;
   margin: 40px auto;
   padding: 50px 20px;
   background-color: #fff8f8;
