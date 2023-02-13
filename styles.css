@@ -372,9 +372,8 @@ footer h4 {
     padding: 8px 12px;
     position: relative;
   }
-  .nav-links ul {
-    padding: 2px auto;
-    margin: 2px auto;
+  .nav-links {
+    margin-top: 40px;
   }
 
   .nav-links ul a {
@@ -408,5 +407,9 @@ footer h4 {
 
   .back-text {
     margin: 0 50px;
+  }
+
+  footer p {
+    margin: auto 20px;
   }
 }
