@@ -238,6 +238,10 @@ nav .fa {
   border-radius: 10px;
 }
 
+.facility {
+  margin-top: 0;
+}
+
 /* testimonials */
 
 .testimonials {
@@ -333,7 +337,7 @@ footer h4 {
 /* about page */
 
 .sub-header {
-  height: 80vh;
+  height: 50vh;
   width: 100%;
   background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
     url(./images/graduation.jpeg);
@@ -375,6 +379,73 @@ footer h4 {
 
 .b-btn:hover {
   color: #fff;
+}
+
+/* blog content */
+
+.blog-content {
+  width: 80%;
+  margin: auto;
+  padding: 60px 0;
+}
+
+.blog-content img {
+  width: 100%;
+}
+
+.blog-left {
+  flex-basis: 65%;
+}
+
+.blog-content h2 {
+  margin: 30px 0;
+  font-weight: 900;
+}
+.blog-content p {
+  color: #999;
+  padding: 0;
+  font-size: 14px;
+}
+
+.blog-right {
+  flex-basis: 32%;
+}
+
+.blog-right h3 {
+  background-color: var(--secondarycolor);
+  color: white;
+  padding: 7px 0;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.blog-right div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #555;
+  padding: 5px;
+}
+.comment-box {
+  margin: 50px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+.comment-box h3 {
+  text-align: left;
+}
+
+.comment-box input,
+.comment-box textarea {
+  padding: 10px;
+  margin: 15px 0;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+
+.comment-box button {
+  margin: 15px 0;
 }
 @media (max-width: 700px) {
   .back-text h1 {
@@ -455,5 +526,17 @@ footer h4 {
   }
   .back-text p {
     width: 100%;
+  }
+
+  .sub-header {
+    height: 80vh;
+  }
+
+  .blog-text {
+    font-size: 12px;
+  }
+
+  .comment-box {
+    margin: 50px 15px;
   }
 }
